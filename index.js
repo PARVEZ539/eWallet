@@ -1,4 +1,3 @@
-// I wish you good luck and happy coding 🥰🤠🥳🥳💯💯
 
 
 document.querySelector('#ewallet-form').addEventListener('submit', function(e){
@@ -141,8 +140,8 @@ function showTotalBalance(){
 
 function getFormattedTime(){
     const now = new Date().toLocaleTimeString('en-us',{
-        day: 'numeric',
         month: 'short',
+        day: 'numeric',
         hour: '2-digit',
         minute: '2-digit',
     });
